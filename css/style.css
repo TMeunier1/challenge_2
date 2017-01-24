@@ -1,0 +1,59 @@
+header {
+    width: 994px;
+}
+
+header img {
+    width: 34px;
+    height: 22px;
+    float: right;
+}
+
+header section {
+    margin: 50px 0 25px 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    display: inline-block;
+    margin-top: 0;
+}
+
+nav {
+        border: 1px solid;
+        height: 59px;
+}
+
+header li {
+    display: inline-block;
+}
+
+main {
+    width: 994px;
+}
+
+
+main section#titres {
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+
+section#titres h2 {
+    margin-bottom: 22px;
+}
+
+section#paragraphes div{
+    background-color: black;
+    height: 40px;
+}
+
+footer {
+    width: 994px;
+}
+
+footer > h3 {
+    height: 75px;
+}
