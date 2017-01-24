@@ -13,6 +13,7 @@ body > section {
     margin: 0 0 0 7.5%;
     padding-left: 7.5%;
     background-color: white;
+    padding-bottom: 3em;
 }
 
 a {
@@ -61,13 +62,19 @@ nav {
 }
 
 nav li {
-    margin-right: 1.5em;
+    width: 10.6em;
     display: inline-block;
     position: relative;
+    text-align: center;
+}
+
+nav li:hover {
+    background-color: grey;
 }
 
 nav li:hover ul {
     display: block;
+    background-color: grey;
 }
 
 nav ul ul {
