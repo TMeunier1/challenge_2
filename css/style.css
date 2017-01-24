@@ -1,59 +1,168 @@
-header {
-    width: 994px;
+body {
+    background-image: url("../images/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica Neue;
+    font-size: 0.813em;
 }
 
+body > section {
+    width: 78.5em;
+    box-shadow: 0 0 5px;
+    margin: 0 0 0 7.5%;
+    padding-left: 7.5%;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+em {
+    color: #606060;
+    font-style: normal;
+}
+
+
 header img {
-    width: 34px;
-    height: 22px;
+    width: 3em;
+    height: 2em;
     float: right;
 }
 
 header section {
-    margin: 50px 0 25px 0;
+    width: 69.4em;
+    margin-bottom: 25px;
 }
 
 h1 {
-    margin-bottom: 0;
+    padding-top: 50px;
+    font-family: Terminal Dosis;
+    font-size: 52px;
+    margin: 0;
+    color: #505050;
 }
 
 header p {
     display: inline-block;
-    margin-top: 0;
+    margin-top: 1em;
+    color: #606060;
 }
 
 nav {
-        border: 1px solid;
-        height: 59px;
+    height: 59px;
+    width: 69.4em;
+    margin : 0;
+    background-color: #fafafa;
+    border-top: 1px solid #606060;
+    border-bottom: 1px solid #606060;
 }
 
-header li {
+nav li {
+    margin-right: 1.5em;
     display: inline-block;
+    position: relative;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li ul li {
+    height: 33px;
+    text-align : center;
+}
+
+nav li ul a {
+    padding: 0 2em;
+    text-align: center;
+}
+
+nav li a {
+    display: inline-block;
+    margin: 0.5em 1em;
 }
 
 main {
-    width: 994px;
+    color: #606060;
 }
 
+main img {
+    margin-top: 25px;
+}
 
 main section#titres {
     text-align: center;
     margin-top: 38px;
     margin-bottom: 30px;
+    width: 69.4em;
 }
 
-section#titres h2 {
+main section#titres h2 {
     margin-bottom: 22px;
+    font-family: Terminal Dosis;
+    font-size: 28px;
+    color: #505050;
 }
 
-section#paragraphes div{
-    background-color: black;
+main section#titres p {
+    color: #A6A6A6;
+}
+
+main section#paragraphes {
+    width: 69.4em;
+}
+
+main section#paragraphes p {
+    margin-bottom: 30px;
+}
+
+main section#paragraphes div{
+    background-color: #fafafa;
     height: 40px;
+    border: 1px solid #606060;
 }
 
-footer {
-    width: 994px;
+footer section#titre{
+    padding: 32.5px 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 69.4em;
+    color: #505050;
 }
 
-footer > h3 {
-    height: 75px;
+footer section#articles {
+    background-color: #fafafa;
+    width: 69.4em;
+    border-top: 1px solid #606060;
+}
+footer article {
+    width: 25%;
+    margin-left: -1%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer article h2 {
+    margin-left: 15%;
+    color: #505050;
+}
+
+footer li {
+    list-style-type: none;
+    display: block;
+}
+
+footer a {
+    color: #606060;
 }

@@ -7,16 +7,25 @@
        <link rel='stylesheet' id='google-webfonts-css'  href='http://fonts.googleapis.com/css?family=Terminal+Dosis%3A200%2C400&#038;ver=4.2.2' type='text/css' media='all' />
    </head>
    <body>
+       <section>
        <header>
            <section>
                <h1>Origami</h1>
                <p>A content Focused Wordpress Theme</p>
-               <img src="./images/mag.png">
+               <a href=""><img src="./images/mag.png" alt="recherche"></a>
             </section>
             <nav>
                 <ul>
-                   <li><a href="#">Home page</a></li>
-                   <li><a href="#">Page Template</a></li>
+                   <li><a href="#">Home page</a>
+                        <ul>
+                            <li><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
+                        </ul></li>
+                   <li><a href="#">Page Template</a>
+                       <ul>
+                           <li><a href="#">test</a></li>
+                           <li><a href="#">test</a></li>
+                       </ul></li>
                    <li><a href="#">Galleries</a></li>
                    <li><a href="#">Masonry Layout</a></li>
                    <li><a href="#">Page Builder</a></li>
@@ -25,10 +34,10 @@
             </nav>
        </header>
        <main>
-           <img src="./images/image1.jpg">
+           <img src="./images/image1.jpg" alt="nuages">
            <section id="titres">
                <h2>Up in the Clouds</h2>
-               <p>On May 6, 2013 by Greg Priday With 0 Comments - Images, Uncategorized</p>
+               <p>On May 6, 2013 by <em>Greg Priday</em> With <em>0</em> Comments - <em>Images, Uncategorized</em></p>
            </section>
            <section id ="paragraphes">
                <p>Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum. </p>
@@ -40,10 +49,12 @@
            </section>
        </main>
        <footer>
-           <h3>Older Entries</h3>
-           <section>
+           <section id="titre">
+               <h2>Older Entries</h2>
+           </section>
+           <section id="articles">
                <article>
-                   <h3>Recent Posts</h3>
+                   <h2>Recent Posts</h2>
                    <ul>
                        <li><a href="#">Up in the Clouds</a></li>
                        <li><a href="#">An Unbelievably Stunning Photo Content That Will Rock Your World</a></li>
@@ -52,7 +63,7 @@
                    </ul>
                </article>
                <article>
-                   <h3>Recent Comments</h3>
+                   <h2>Recent Comments</h2>
                    <ul>
                        <li><a href="#">Etosha on Default</a></li>
                        <li><a href="#">Stefan Gustafsson on Content That Will Rock Your World</a></li>
@@ -62,7 +73,7 @@
                    </ul>
                </article>
                <article>
-                   <h3>Archives</h3>
+                   <h2>Archives</h2>
                    <ul>
                        <li><a href="#">May 2013</a></li>
                        <li><a href="#">July 2012</a></li>
@@ -71,7 +82,7 @@
                    </ul>
                </article>
                <article>
-                   <h3>Categories</h3>
+                   <h2>Categories</h2>
                    <ul>
                        <li><a href="#">Images</a></li>
                        <li><a href="#">Uncategorized</a></li>
@@ -79,5 +90,6 @@
                </article>
            </section>
        </footer>
+</section>
    </body>
 </html>
